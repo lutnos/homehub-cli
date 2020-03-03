@@ -1,5 +1,7 @@
 module github.com/jamesnetherton/homehub-cli
 
+replace github.com/jamesnetherton/homehub-client => /Users/dave/workspace/jamesnetherton/homehub-client
+
 require (
 	github.com/chzyer/logex v1.1.10 // indirect
 	github.com/chzyer/readline v0.0.0-20160726135117-62c6fe619375
@@ -9,3 +11,5 @@ require (
 	github.com/ryanuber/columnize v0.0.0-20170703205827-abc90934186a
 	golang.org/x/net v0.0.0-20181017193950-04a2e542c03f // indirect
 )
+
+go 1.13
